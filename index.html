@@ -556,8 +556,28 @@
         setBounds();
         </script>  
 		<div style="position: absolute; top: 20px; left: 60px; z-index: 1000; background: white; padding: 15px; border-radius: 8px; font-family: sans-serif; box-shadow: 0 2px 6px rgba(0,0,0,0.3); max-width: 300px;">
-    <h2 style="margin: 0 0 5px 0; font-size: 18px; color: #333;">AQUÍ ESCRIBE TU TÍTULO</h2>
+    <h2 style="margin: 0 0 5px 0; font-size: 18px; color: #333;"> Mapeo y Visualización de Socavones en la Alcaldía Iztapalapa</h2>
     <p style="margin: 0; font-size: 13px; color: #666; line-height: 1.4;">AQUÍ ESCRIBE LA BREVE DESCRIPCIÓN DE TU MAPA</p>
 </div>
     </body>
+	<!-- Contenedor principal del Pop-up -->
+<div id="popup-bienvenida" class="popup-overlay">
+    <div class="popup-content">
+        <h2>¡Bienvenido al Visualizador de Socavones!</h2>
+        <p>Este es un mapa interactivo diseñado para conocer la situación de los socavones en la alcaldía Iztapalapa.</p>
+        
+        <h3>¿Qué información puedes ver?</h3>
+        <ul>
+            <li><strong>Historial de la alcaldía:</strong> Registros de socavones de los años 2017, 2018, 2019 y 2020.</li>
+            <li><strong>Reportes ciudadanos:</strong> Puntos basados en denuncias reales de vecinos en redes sociales y noticias.</li>
+            <li><strong>Zonas de atención:</strong> Colonias pintadas por colores según la cantidad de reportes acumulados.</li>
+        </ul>
+        
+        <h3>¿Cómo usarlo?</h3>
+        <p>Muévete por el mapa, activa o desactiva las capas por año y haz clic en cualquier punto para conocer los detalles, la fecha y la dirección exacta.</p>
+        
+        <!-- Botón para cerrar -->
+        <button id="btn-cerrar-popup" class="popup-btn">Comenzar a explorar</button>
+    </div>
+</div>
 </html>
